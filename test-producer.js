@@ -6,7 +6,7 @@ const argv = require('yargs').argv;
 /* PROCESS INPUT ARGS */
 
 if (argv.help || argv.h) {
-    console.log(`USAGE: node producer-test [--msg="<your msg>"] [--topic=<kafka topic. defaults to 'test'>]`);
+    console.log(`USAGE: node test-producer [--msg="<your msg>"] [--topic=<kafka topic. defaults to 'test'>]`);
     process.exit(0);
 }
 
